@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchapp: Nieuwe Hobby</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Matchapp: Nieuwe Hobby
+        </h1>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Wat informatie voordat we beginnen!</h2>
+            <img src="https://seniorenhobbycentrum.nl/wp-content/uploads/2020/11/Hobbies-2020.jpg" alt="tekeningen van verschillende hobby's" width="450">
+            <p>
+                
+                    Klik <a href="https://www.alletop10lijstjes.nl/top-10-populairste-hobbys-ter-wereld/">hier</a> voor meer informatie over de meest beroemde hobby's
+                
+            </p>
+            <p>
+                
+                    Klik <a href="https://paintingexpert.nl/blogs/nieuws/nieuwe-hobby-vinden">hier</a> voor nog meer verschillende hobby's die je is kunt proberen
+                
+            </p>
+        </section>
+        <section id="lijstjes">
+            <h2>
+                Beroemde hobby's: Sport
+            </h2>
+            <li>
+                Tennis
+            </li>
+            <li>
+                baskketball
+            </li>
+            <li>
+                voetbal
+            </li>
+            <h2>
+                Beroemde hobby's: vechtsport
+            </h2>
+            <li>
+                box(taibox, kickbox,...)
+            </li>
+            <li>
+                judo
+            </li>
+            <li>
+                karate
+            </li>
+            <li>
+                spinjitsu
+            </li>
+        </section>
+        <section id="vragen">
+            <form action="">
+                <fieldset>
+                    <legend>
+                        Wat is jouw naam?
+                    </legend>
+                    <input type="text">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Hoe oud ben je?
+                    </legend>
+                    <input type="number" name="leeftijd" min="1" max="99">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Wat voor hobby's vind je leuk?
+                    </legend>
+                    <input type="radio">
+                        Vechtsport
+                    <input type="radio">
+                    rustgevend hobby
+                    <input type="radio">
+                    fysieke sport
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Heeft u deze dingen om aan sport te doen?
+                    </legend>
+                    <input type="checkbox">
+                    benen
+                    <input type="checkbox">
+                    energie
+                    <input type="checkbox">
+                    Een goede mindset
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Heeft u nog opmerkingen?
+                    </legend>
+                    <textarea name="opmerking"  cols="30" rows="10">
+                    </textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Heeft u een van deze ziektes?
+                    </legend>
+                    <select name="enquete" id="">
+                        <option value="">Kies een ziekte</option>
+                        <option value="">paralyzeerde deel van uw lichaam</option>
+                        <option value="">down syndrome</option>
+                        <option value="">autisme</option>
+                    </select>        
+                    </option>
+                </fieldset>
+                <button type="submit">verzenden</button>
+                <button type="reset">herstellen</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

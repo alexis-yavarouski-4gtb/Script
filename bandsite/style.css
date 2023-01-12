@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(148, 0, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+nav {
+    background-color: rgba(214, 79, 42, 0.74);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color:rgb(174, 100, 100);
+}
+
+img { 
+    display: inline-block;
+    width: 45%;
+}
+
+#News {
+    background-color: rgba(250, 62, 62, 0.39);
+}
+
+#Tour {
+    background-color: rgba(250, 62, 62, 0.39);
+    
+}
+
+#Merch {
+    background-color: rgba(250, 62, 62, 0.39);
+    
+}
+
+#Gallery {
+    background-color: rgba(250, 62, 62, 0.39);
+    
+}
+
+main {
+    margin: 1%;
+}
+
+body {
+    margin: 1%;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    margin: 5%;
+}
+nav ul {
+    text-align: center;
+    margin-right: 4%;
+}
