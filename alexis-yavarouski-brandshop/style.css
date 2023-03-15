@@ -1,0 +1,36 @@
+body {
+
+    background-color: rgba(255, 119, 119, 0.436);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.429);
+}
+
+header nav li {
+    display: inline;
+    background-color: rgba(255, 118, 118, 0.715);
+    padding: 8px; 
+}
+
+header img {
+    width: 100px;
+}
+
+header input {
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+header i {
+    font-size: 20px;
+    margin-left: 50px;
+}
