@@ -34,3 +34,7 @@ header i {
     font-size: 20px;
     margin-left: 50px;
 }
+
+video{
+    width: 100%;
+}
