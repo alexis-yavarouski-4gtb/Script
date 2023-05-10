@@ -5,8 +5,12 @@ body {
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex: 1;
 }
 
 header {
@@ -16,7 +20,7 @@ header {
 header nav li {
     display: inline;
     background-color: rgba(255, 118, 118, 0.715);
-    padding: 8px; 
+    padding: 8px;
 }
 
 header img {
@@ -35,6 +39,71 @@ header i {
     margin-left: 50px;
 }
 
-video{
+video {
     width: 100%;
+}
+
+.schoen1 img {
+    width: 80%;
+}
+
+.schoen2 img {
+    width: 80%;
+}
+
+.schoen3 img {
+    width: 80%;
+}
+
+
+
+section {
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+
+.categorien {
+    position: relative;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    padding: 2%;
+}
+
+.color-kids {
+    background-color: rgb(224, 110, 255);
+}
+
+.color-men {
+    background-color: rgb(133, 133, 255);
+}
+
+.color-women {
+    background-color: rosybrown;
+}
+
+
+#membership .flex-item {
+    padding: 2rem;
+}
+
+.highlight {
+    background-color: #f9a3b3;
+}
+
+.memberfoto {
+    align-self: stretch;
+    background-image: url(img/adiclub-always-on-landing-page-teasers-vip-home-game-exp-d_tcm335-841138.webp);
+    background-size: cover;
+    background-position: right;
 }
